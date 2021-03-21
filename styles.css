@@ -133,7 +133,7 @@ a {
 
 .personal-contact {
   background: #e0ebeb;
-  height: 73px;
+  height: 110px;
   margin-top: 18px;
   padding-top: 6px;
   border-radius: 30px;
@@ -192,8 +192,14 @@ a {
   color: black;
 }
 
-.personal-contact a:hover {
+.get-resume-cv a {
   text-shadow: 5px 0px 5px #dd4b39;
+  font-size: 20px;
+}
+
+.get-resume-cv a:hover,
+.personal-contact a:hover {
+  text-shadow: 5px 0px 5px #201a19;
   text-decoration: none;
 }
 
