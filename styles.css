@@ -4,12 +4,20 @@ body {
   background: #d1e0e0;
   font-family: "Montserrat", sans-serif;
   padding: 150px;
+  padding-bottom: 0px;
   color: black;
 }
 
 /* 770px */
 @media screen and (max-width: 1024px) {
   body {
+    padding: 10px;
+    padding-bottom: 0px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .social {
     padding: 10px;
   }
 }
@@ -183,7 +191,8 @@ a {
 
 .linkTo:hover,
 .research:hover,
-.lekturLink:hover {
+.lekturLink:hover,
+.college:hover {
   text-decoration: none;
 }
 
@@ -204,4 +213,9 @@ a {
 .personal-contact a:hover {
   text-shadow: 5px 0px 5px #dd4b39;
   text-decoration: none;
+}
+
+.college {
+  color: rgb(218, 154, 16);
+  font-weight: 500;
 }
