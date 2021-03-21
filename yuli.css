@@ -7,6 +7,7 @@ body {
   color: black;
 }
 
+/* 770px */
 @media screen and (max-width: 770px) {
   body {
     padding: 10px;
@@ -41,16 +42,12 @@ a {
   margin-top: 90px;
 }
 
-/* .navbar {
-  margin-right: 0px;
-} */
-
 .my-pic {
-  width: 270px;
+  width: 250px;
   margin-bottom: 8px;
   margin-top: 8px;
   border-radius: 40%;
-  box-shadow: 5px 9px 10px #aaaaaa;
+  box-shadow: 10px 9px 10px #aaaaaa;
 }
 
 .navbar-nav a {
@@ -76,6 +73,12 @@ a {
 .fa-react {
   font-size: 21px;
   color: #13749b;
+  margin-right: 8px;
+}
+
+.fa-git {
+  font-size: 21px;
+  color: #ee3d08;
   margin-right: 8px;
 }
 
@@ -108,12 +111,12 @@ a {
   color: #dd4b39;
 }
 
-.fa-facebook {
-  color: #3b5998;
+.fa-github {
+  color: #1b1e1f;
 }
 
-.fa-twitter {
-  color: #00aced;
+.fa-gitlab {
+  color: #fc6d27;
 }
 
 .fa-instagram {
@@ -171,4 +174,34 @@ a {
   background: #e0ebeb;
   height: 50px;
   padding-top: 6px;
+}
+
+.linkTo {
+  color: purple;
+  text-decoration: none;
+}
+
+.linkTo:hover,
+.research:hover,
+.lekturLink:hover {
+  text-decoration: none;
+}
+
+.research b {
+  font-size: 10px;
+  font-style: italic;
+  margin-left: 10px;
+}
+
+.lekturLink {
+  color: orangered;
+}
+
+.personal-contact a {
+  color: black;
+}
+
+.personal-contact a:hover {
+  text-shadow: 5px 0px 5px #dd4b39;
+  text-decoration: none;
 }
